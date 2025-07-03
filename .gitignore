@@ -18,6 +18,8 @@ out/
 *.userosscache
 *.sln.docstates
 .vscode/
+.vs/
+
 
 # OS generated files
 .DS_Store
