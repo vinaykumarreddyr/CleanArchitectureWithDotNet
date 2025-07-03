@@ -1,0 +1,15 @@
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\bin\Debug\net8.0\Mediator.Apllication.deps.json
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\bin\Debug\net8.0\Mediator.Apllication.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\bin\Debug\net8.0\Mediator.Apllication.pdb
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\bin\Debug\net8.0\Mediator.Domain.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\bin\Debug\net8.0\Mediator.Domain.pdb
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.csproj.AssemblyReference.cache
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.AssemblyInfoInputs.cache
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.AssemblyInfo.cs
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.csproj.CoreCompileInputs.cache
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.DAA6DE60.Up2Date
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\refint\Mediator.Apllication.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\Mediator.Apllication.pdb
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Apllication\obj\Debug\net8.0\ref\Mediator.Apllication.dll

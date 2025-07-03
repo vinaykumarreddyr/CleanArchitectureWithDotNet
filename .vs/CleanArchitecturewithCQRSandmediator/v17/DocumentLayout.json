@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinay\\source\\repos\\CleanArchitecturewithCQRSandmediator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7161DBE5-D93D-488C-9B3A-1CF2317A7EE0}|CleanArchitecturewithCQRSandmediator\\CleanArchitecturewithCQRSandmediator.API.csproj|c:\\users\\vinay\\source\\repos\\cleanarchitecturewithcqrsandmediator\\cleanarchitecturewithcqrsandmediator\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7161DBE5-D93D-488C-9B3A-1CF2317A7EE0}|CleanArchitecturewithCQRSandmediator\\CleanArchitecturewithCQRSandmediator.API.csproj|solutionrelative:cleanarchitecturewithcqrsandmediator\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\vinay\\source\\repos\\CleanArchitecturewithCQRSandmediator\\CleanArchitecturewithCQRSandmediator\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecturewithCQRSandmediator\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\vinay\\source\\repos\\CleanArchitecturewithCQRSandmediator\\CleanArchitecturewithCQRSandmediator\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "CleanArchitecturewithCQRSandmediator\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwEcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:50:27.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

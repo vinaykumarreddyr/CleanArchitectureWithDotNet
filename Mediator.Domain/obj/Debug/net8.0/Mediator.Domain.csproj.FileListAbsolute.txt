@@ -1,0 +1,11 @@
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\bin\Debug\net8.0\Mediator.Domain.deps.json
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\bin\Debug\net8.0\Mediator.Domain.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\bin\Debug\net8.0\Mediator.Domain.pdb
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\Mediator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\Mediator.Domain.AssemblyInfoInputs.cache
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\Mediator.Domain.AssemblyInfo.cs
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\Mediator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\Mediator.Domain.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\refint\Mediator.Domain.dll
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\Mediator.Domain.pdb
+C:\Users\vinay\source\repos\CleanArchitecturewithCQRSandmediator\Mediator.Domain\obj\Debug\net8.0\ref\Mediator.Domain.dll
