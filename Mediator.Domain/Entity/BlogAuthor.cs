@@ -9,6 +9,6 @@ namespace Mediator.Domain.Entity
         public int AuthorID { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
-        //public ICollection<Blog> Blogs { get; set; } // Optional: Navigation property for one-to-many
+        public ICollection<Blog> Blogs { get; set; } 
     }
 }

@@ -12,8 +12,17 @@ public class BlogDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Blog>().ToTable("Blog").HasKey(entity=>entity.ID);
-        modelBuilder.Entity<BlogAuthor>().ToTable("BlogAuthor")
-            .HasKey(a => a.AuthorID); // Explicit primary key
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<Blog>()
+            .HasOne(b => b.Author)
+            .WithMany(a => a.Blogs)
+            .HasForeignKey(b => b.AuthorID);
+
+        modelBuilder.Entity<BlogAuthor>().ToTable("BlogAuthor");
+        modelBuilder.Entity<Blog>().ToTable("Blog");
+
+
     }
+
 }

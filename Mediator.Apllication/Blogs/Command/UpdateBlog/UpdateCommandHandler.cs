@@ -23,7 +23,7 @@ namespace Mediator.Apllication.Blog_s.Command.UpdateBlog
         }
         public async Task<int> Handle(UpdateBlogCommand request, CancellationToken cancellationToken)
         {
-            var updatenetry = new Blog() { ID = request.ID ,Name=request.Name,Description=request.Description,Author=request.Author};
+            var updatenetry = new Blog() { ID = request.ID ,Name=request.Name,Description=request.Description};
             var blogupdate =await  _blogRepository.Updateasync(request.ID, updatenetry);
             return blogupdate;
         }

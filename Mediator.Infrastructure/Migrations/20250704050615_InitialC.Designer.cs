@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Mediator.Infrastructure.Migrations
 {
     [DbContext(typeof(BlogDbContext))]
-    [Migration("20250630075843_RemoveAuthorSelfReference")]
-    partial class RemoveAuthorSelfReference
+    [Migration("20250704050615_InitialC")]
+    partial class InitialC
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,9 +31,8 @@ namespace Mediator.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<string>("Author")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("AuthorID")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -45,7 +44,9 @@ namespace Mediator.Infrastructure.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Blog", (string)null);
+                    b.HasIndex("AuthorID");
+
+                    b.ToTable("Blogs");
                 });
 
             modelBuilder.Entity("Mediator.Domain.Entity.BlogAuthor", b =>
@@ -56,10 +57,7 @@ namespace Mediator.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AuthorID"));
 
-                    b.Property<int?>("AuthorID1")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("Isactive")
+                    b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
@@ -68,18 +66,23 @@ namespace Mediator.Infrastructure.Migrations
 
                     b.HasKey("AuthorID");
 
-                    b.HasIndex("AuthorID1");
+                    b.ToTable("BlogAuthors");
+                });
 
-                    b.ToTable("BlogAuthor", (string)null);
+            modelBuilder.Entity("Mediator.Domain.Entity.Blog", b =>
+                {
+                    b.HasOne("Mediator.Domain.Entity.BlogAuthor", "Author")
+                        .WithMany("Blogs")
+                        .HasForeignKey("AuthorID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Author");
                 });
 
             modelBuilder.Entity("Mediator.Domain.Entity.BlogAuthor", b =>
                 {
-                    b.HasOne("Mediator.Domain.Entity.BlogAuthor", "Author")
-                        .WithMany()
-                        .HasForeignKey("AuthorID1");
-
-                    b.Navigation("Author");
+                    b.Navigation("Blogs");
                 });
 #pragma warning restore 612, 618
         }

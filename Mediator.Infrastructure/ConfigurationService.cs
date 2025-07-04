@@ -23,7 +23,8 @@ namespace Mediator.Application
             // ⭐⭐⭐ THIS IS THE CRITICAL CHANGE ⭐⭐⭐
             // Move the IBlogRepository registration to be BEFORE the return statement.
             services.AddTransient<IBlogRepository, BlogRepository>();
-
+            services.AddTransient<IBlogAuthorRepository, BlogAuthorRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
             // 3. Now, return the service collection
             return services;
         }
