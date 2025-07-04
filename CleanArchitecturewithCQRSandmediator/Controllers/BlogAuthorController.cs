@@ -1,5 +1,6 @@
 ﻿using Mediator.Apllication.Blog_s.Command.DeleteBlog;
 using Mediator.Apllication.BlogAuthor.Command.CreateBlogAuthor;
+using Mediator.Apllication.BlogAuthor.CreateBlogAuthorr;
 using Mediator.Apllication.BlogAuthor.Query.GetAllBlogAuthors;
 using Mediator.Apllication.BlogAuthor.Query.GetBlogAuthorById;
 using Mediator.Apllication.BlogAuthors.Command.UpdateBlogAuthor;
@@ -11,6 +12,12 @@ namespace CleanArchitecturewithCQRSandmediator.API.Controllers
     [ApiController]
     public class BlogAuthorController : ApiControllerBase
     {
+        [HttpPost("create-blog-with-author")]
+        public async Task<IActionResult> CreateBlogWithAuthor([FromBody] CreateBlogWithAuthorCommand command)
+        {
+            var blogId = await Mediator.Send(command);
+            return Ok(new { BlogId = blogId });
+        }
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
