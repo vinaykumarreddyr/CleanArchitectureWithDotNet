@@ -17,7 +17,7 @@ namespace Mediator.Apllication.Blogs.Command.CreateBlog
         }
         public async Task<BlogVM> Handle(CreateBlogCommand request, CancellationToken cancellationToken)
         {
-            var Entry = new Blog() { Name = request.Name ,Description = request.Description,Author =request.Author};
+            var Entry = new Blog() { Name = request.Name, Description = request.Description };
             var result = await _blogRepository.Createasync(Entry);
             return _mapper.Map<BlogVM>(result);
         }
