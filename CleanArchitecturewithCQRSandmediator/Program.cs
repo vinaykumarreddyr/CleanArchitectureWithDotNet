@@ -5,6 +5,7 @@ using Mediator.Application.Common.Mappings;
 using Serilog;
 using Mediator.Domain.Repository;
 using Mediator.Infrastructure.Repository;
+using Autofac.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,7 +48,9 @@ builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
 // Add repository
+builder.Services.AddScoped<IBlogRepository, BlogRepository>();
 builder.Services.AddScoped<IBlogAuthorRepository, BlogAuthorRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
