@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mediator.Apllication.Blog_s.Command.DeleteBlog
+namespace Mediator.Apllication.Blogs.Command.DeleteBlog
 {
     public class DeleteBlogCommandHandler : IRequestHandler<DeleteBlgoCommand, int>
     {

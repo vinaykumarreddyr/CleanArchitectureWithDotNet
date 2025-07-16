@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Mediator.Apllication.Blog_s.Command.DeleteBlog
+namespace Mediator.Apllication.Blogs.Command.DeleteBlog
 {
     public class DeleteBlgoCommand : IRequest<int>
     {

@@ -4,6 +4,7 @@ using Mediator.Apllication.BlogAuthor.CreateBlogAuthorr;
 using Mediator.Apllication.BlogAuthor.Query.GetAllBlogAuthors;
 using Mediator.Apllication.BlogAuthor.Query.GetBlogAuthorById;
 using Mediator.Apllication.BlogAuthors.Command.UpdateBlogAuthor;
+using Mediator.Apllication.Blogs.Command.DeleteBlog;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecturewithCQRSandmediator.API.Controllers
